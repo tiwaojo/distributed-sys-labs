@@ -4,5 +4,5 @@
 - [Lab1 Report](https://)
 
 ## Recordings (GDrive Link)
-- [MySQL Deployment](https://)
+- [MySQL Deployment](https://drive.google.com/file/d/11NKWZXFGPiLPwLRK0L3sCAVEsOapgcE1/view?usp=sharing)
 - [MongoDB Deployment](https://)
