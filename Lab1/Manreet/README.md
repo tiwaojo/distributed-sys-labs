@@ -5,4 +5,4 @@
 
 ## Recordings (GDrive Link)
 - [MySQL Deployment](https://drive.google.com/file/d/11NKWZXFGPiLPwLRK0L3sCAVEsOapgcE1/view?usp=sharing)
-- [MongoDB Deployment](https://)
+- [MongoDB Deployment](https://drive.google.com/file/d/1IeZsBURzP_vs6Q-Je8-a13v2NwdTKWlO/view?usp=sharing)
