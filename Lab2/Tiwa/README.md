@@ -44,13 +44,20 @@ https://github.com/GeorgeDaoud3/SOFE4790U-lab2
     kubectl run -i --tty load-generator --rm --image=busybox:1.28 --restart=Never -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://<external-ip>; done"
     ```
     Alternatively, you could simply send multiple requests through the browser by refereshing several times.
+
+    In a new tab use the below command to watch for hpa pods
+    ```sh
+    # type Ctrl+C to end the watch when you're ready
+    kubectl get hpa php-apache --watch
+    ```
+    ### Resource used: [HorizontalPodAutoscaler Walkthrough](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/#run-and-expose-php-apache-server)
 - How autoscaling is different than load balancing and request splitter?
     - Request splitting requires the Pods have already been deployed and you are simply distributing the workload to specific Pods at runtime. I.e. you can specify a particular pod in a replica set absorb a certain percentage of the networks traffic. This method will likely leave some Pods idle while the others are overworked
     - Load balancing is similar to request splitting where as rather than having a particular Pod carry most of the traffic, the traffic is distributed dynamically to the replica set. This ensures no single Pod is ingesting the applications bandwidth of data.
     - Auto Scaling is similar to load balancing as where load balancing has to distribute its workload during among its predefined replica set, auto scaling simply adds another Pod to its replica set to ingest some of the bandwidth.
 
 ## Report (GDocs Link)
-- [Lab2 Report](https://https://docs.google.com/document/d/17WeA_YxqFuUT1RbtsJQptYAiFK3ly8FP4z1sC5SNzAQ/edit#heading=h.3k5298jiggyi)
+- [Lab2 Report](https://)
 
 ## Recordings (GDrive Link)
 - [Request Splitting & Loadbalancing](https://drive.google.com/file/d/1tM7bU5EOSj7sT95l9JrpXweKl9De-XAw/view?usp=sharing)
