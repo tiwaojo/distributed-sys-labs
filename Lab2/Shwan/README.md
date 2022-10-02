@@ -4,5 +4,5 @@
 - [Lab2 Report](https://https://docs.google.com/document/d/1NJvdFDv4IqTWSGPT2DzIBQjjxKebr3FxiHcBs4eqOfw/edit?usp=sharing)
 
 ## Recordings (GDrive Link)
-- [Lab Steps](https://)
+- [Lab Steps](https://https://drive.google.com/file/d/1P1hXjytGl8Ks-xqUD3uveSQ3YXtPyooO/view?usp=sharing)
 - [Autoscaling](https://)
