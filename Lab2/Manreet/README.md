@@ -9,7 +9,7 @@
   
   - Same service may have multiple versions, where these versions are deployed along with the existing versions. Client then needs to be updated each time there is a change in the percentage of traffic being routed to the new  and the old version .Gateway routing pattern can be used here where the new versions can be deployed parallel to existing versions. This way now the gateway contains the complex part and clients don’t need to be updated about the traffic percentage. Any change in version can be refactored in the gateway and clients do not get affected.
  
-###Requirements for the pattern:
+### Requirements for the pattern:
 - This pattern can be used when multiple services are required by the client.
 - To Simplify client applications.
 - Services that needs to be accessed in multiple regions 
