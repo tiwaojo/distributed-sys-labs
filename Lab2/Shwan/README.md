@@ -5,4 +5,4 @@
 
 ## Recordings (GDrive Link)
 - [Lab Steps](https://drive.google.com/file/d/1P1hXjytGl8Ks-xqUD3uveSQ3YXtPyooO/view?usp=sharing)
-- [Autoscaling](https://)
+- [Autoscaling](https://https://drive.google.com/file/d/1bgH8nv3LvXP_tiFyVWSlNntF6mfqQbvi/view?usp=sharing)
