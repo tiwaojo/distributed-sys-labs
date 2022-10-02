@@ -21,8 +21,8 @@
 ### Which of these requirements can be achieved by the procedures shown in parts 2 and 3?
    - Multiple instance  of services, simply client applications, multiple versions of the services and route request from laptop to VM, these requirements can be achieved by procedures in part 2 and 3 
 
-### Design
-- Why autoscaling is usually used?How autoscaling is implemented?How autoscaling is different than load balancing and request splitter?
+## Design
+### Why autoscaling is usually used?How autoscaling is implemented?How autoscaling is different than load balancing and request splitter?
     - Autoscaling is usually used to increase or decrease the memory , compute or the network resources that have been allocated according to the demand . This pattern is very useful and cost effective as well . For example , when there was an increase in the demand for Netflix , the resources were increased . Neftlix uses a distributed system , and with the help of autoscaling, Netflix was able to increase their network resources to meet that demand . Also when the demand decreases , the network resources are also reduced hence managing the cost . Autoscaling can be implemented by using horizontal scaling or vertical scaling approaches . In Horizontal scaling , instances of the resources are added or reduced based on the demand or requirement . In vertical scaling, the capacity of the resource can be increased or decreased depending on the demand . 
   - In Load Balancing and request splitter , the container required and resources like the pods are fixed . Load balancer sends the traffic to the resources by looking at their availability whereas in request slitter , we already decide how the traffic should be splitted based on the percentage . In Autoscaling , the instances of the resources or the capacity of the power is scalled based on the demand or incoming traffic to that site.
 
