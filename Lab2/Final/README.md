@@ -7,8 +7,10 @@
 - Learn how to configure load balancer services
 - Get Familiar with load balancing pattern
 
-## Repository: (Contains all the files created within the lab):
+### Repository: (Contains all the files created within the lab):
 https://github.com/GeorgeDaoud3/SOFE4790U-lab2
+
+### Lab Repository: https://github.com/tiwaojo/distributed-sys-labs/tree/master/Lab2/Final
 
 ## Discussion [Gateway Routing pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-routing)
  ### Summarize the problem, the solution, and the requirements for the pattern given in part 1.
