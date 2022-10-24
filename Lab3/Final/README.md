@@ -37,7 +37,7 @@ requirements needed for the solution
     - A web application with a database might require its state to be persistent between executions
     - A YAML with this configuration might look like below:
     - Proof:
-        - ![Persistent Volume MongoDB](https://user-images.githubusercontent.com/55967921/197444887-7140393e-8cba-4a72-94b6-f6a81bc2f233.png)
+        - ![Persistent Volume MongoDB](https://github.com/tiwaojo/distributed-sys-labs/blob/master/Lab3/Tiwa/init_pvc_mongodb.png)
 
 
 ```sh
